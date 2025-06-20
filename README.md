@@ -1,4 +1,8 @@
-🔳 QR Code Generator - Chrome Extension
+## 🔳 QR Code Generator - Chrome Extension
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+
 A stylish and efficient Chrome extension to generate, copy, and download QR codes for any URL in a click.
 
 ## 🚀 Features 
@@ -13,15 +17,6 @@ A stylish and efficient Chrome extension to generate, copy, and download QR code
 
 ⚡ Fast QR rendering using QRious.js
 
-## 📂 File Structure
-
-qr-code-generator-extension/
-├── manifest.json           # Extension configuration
-├── popup.html              # UI for the popup
-├── style.css               # Visual styling
-├── popup.js                # QR generation logic
-├── qrious.min.js           # QR code library
-└── icon.png                # Extension icon
 
 ## 📸 Interface
 Intuitive design built for speed and clarity
