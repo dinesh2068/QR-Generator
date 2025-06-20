@@ -26,6 +26,7 @@ Intuitive design built for speed and clarity
 ## 🌐 Also Available as a Website
 
 Prefer not to install the extension? Try the web version:
+
 qrcode-web-magic-link.lovable.app
 
 ## 🛠 How to Install
@@ -53,4 +54,5 @@ Chrome Extension Manifest v3
 
 ## 🙌 Credits
 Created by DINESHKARTIK N – 2025
+
 Feel free to contribute or fork the project!
