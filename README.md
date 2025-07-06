@@ -54,6 +54,6 @@ Chrome Extension Manifest v3
 "clipboardWrite": To copy QR image directly to your clipboard
 
 ## 🙌 Credits
-Created by DINESHKARTIK N – 2025
+Created by DINESHKARTHIK N – 2025
 
 Feel free to contribute or fork the project!
