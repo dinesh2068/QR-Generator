@@ -1,0 +1,88 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1a0000; /* deep blackish red */
+  color: #f2f2f2;
+  width: 300px;
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+}
+
+h2 {
+  color: #ff4d4d; /* bright red accent */ 
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px 8px 8px 3px  ;
+  border: 1px solid #550000;
+  border-radius: 6px;
+  background: #2b0000;
+  color: #f2f2f2;
+  font-size: 14px;
+}
+
+input[type="text"]::placeholder {
+  color: #b86666;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #660000, #990000);
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #990000, #cc0000);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+#qr-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#qr-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.3);
+}
+
+#actions {
+  display: none; /* shown dynamically by JS */
+}
+
+#notification {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background: rgba(153, 0, 0, 0.9);
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  z-index: 9999;
+}
