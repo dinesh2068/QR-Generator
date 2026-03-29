@@ -27,8 +27,7 @@ Intuitive design built for speed and clarity
 
 Prefer not to install the extension? Try the web version:
 
-[https://qrcode-web-magic-link.lovable.app](https://qrcode-web-magic-link.lovable.app)
-
+[https://qrcode-gen.bolt.host](https://qrcode-gen.bolt.host/)
 
 ## 🛠 How to Install
 
