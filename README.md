@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 
-A stylish and efficient Chrome extension to generate, copy, and download QR codes for any URL in a click.
+A stylish and efficient Browser extension to generate, copy, and download QR codes for any URL in a click.
 
 ## Features 
 
@@ -31,6 +31,8 @@ Prefer not to install the extension? Try the web version:
 
 ## 🛠 How to Install
 
+### For chrome:
+
 1. Open Chrome and go to chrome://extensions/
 
 2. Turn on Developer mode
@@ -38,6 +40,24 @@ Prefer not to install the extension? Try the web version:
 3. Click Load unpacked
 
 4. Select this project folder
+
+   
+### For Firefox:
+
+1. Download all source files
+
+2. Ensure all files are in the same directory:
+
+ - manifest.json
+ - popup.html
+ - popup.js
+ - style.css
+ - qrious.min.js
+
+3. Zip the files
+
+4. Upload the ZIP to Firefox Add-ons
+
 
 Now you're ready to start generating QR codes!
 
